@@ -1,0 +1,76 @@
+body {
+    background-color: #111;
+    text-align: center;
+    margin: 0;
+    color: #eee;
+}
+
+.logo {
+    color: #3badff;
+}
+
+nav a {
+    color: #eee;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #3badff;
+    text-shadow: 0 0 10px #23fbff;
+}
+
+.home {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: url('WhatsApp\ Image\ 2025-09-22\ at\ 19.06.59_98949d33.jpg') center center / cover no-repeat;
+    color: #fff;
+    width: 100%;
+    height: 650px;
+    margin-top: 20px;
+}
+
+.home h2 {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#programs {
+    margin-top: 90px;
+}
+
+#programs h3 {
+    color: #3badff;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.card h4 {
+    color: #3badff;
+}
+
+#contact {
+    margin-top: 100px;
+}
+
+#contact h3 {
+    color: #3badff;
+}
+
+footer {
+    background: #222;
+    color: #aaa;
+    padding: 15px;
+}
